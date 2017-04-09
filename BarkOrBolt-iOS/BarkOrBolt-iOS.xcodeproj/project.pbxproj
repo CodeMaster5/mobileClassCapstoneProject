@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BED3977A1E9ADD050095622C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED397791E9ADD050095622C /* AppDelegate.swift */; };
+		BED3977C1E9ADD050095622C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED3977B1E9ADD050095622C /* ViewController.swift */; };
+		BED3977F1E9ADD050095622C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BED3977D1E9ADD050095622C /* Main.storyboard */; };
+		BED397821E9ADD050095622C /* BarkOrBolt_iOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BED397801E9ADD050095622C /* BarkOrBolt_iOS.xcdatamodeld */; };
+		BED397841E9ADD050095622C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BED397831E9ADD050095622C /* Assets.xcassets */; };
+		BED397871E9ADD050095622C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BED397851E9ADD050095622C /* LaunchScreen.storyboard */; };
+		BED397921E9ADD050095622C /* BarkOrBolt_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED397911E9ADD050095622C /* BarkOrBolt_iOSTests.swift */; };
+		BED3979D1E9ADD050095622C /* BarkOrBolt_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED3979C1E9ADD050095622C /* BarkOrBolt_iOSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BED3978E1E9ADD050095622C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BED3976E1E9ADD050095622C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BED397751E9ADD050095622C;
+			remoteInfo = "BarkOrBolt-iOS";
+		};
+		BED397991E9ADD050095622C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BED3976E1E9ADD050095622C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BED397751E9ADD050095622C;
+			remoteInfo = "BarkOrBolt-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BED397761E9ADD050095622C /* BarkOrBolt-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BarkOrBolt-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BED397791E9ADD050095622C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BED3977B1E9ADD050095622C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BED3977E1E9ADD050095622C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BED397811E9ADD050095622C /* BarkOrBolt_iOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BarkOrBolt_iOS.xcdatamodel; sourceTree = "<group>"; };
+		BED397831E9ADD050095622C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BED397861E9ADD050095622C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BED397881E9ADD050095622C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BED3978D1E9ADD050095622C /* BarkOrBolt-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BarkOrBolt-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BED397911E9ADD050095622C /* BarkOrBolt_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarkOrBolt_iOSTests.swift; sourceTree = "<group>"; };
+		BED397931E9ADD050095622C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BED397981E9ADD050095622C /* BarkOrBolt-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BarkOrBolt-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BED3979C1E9ADD050095622C /* BarkOrBolt_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarkOrBolt_iOSUITests.swift; sourceTree = "<group>"; };
+		BED3979E1E9ADD050095622C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BED397731E9ADD050095622C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BED3978A1E9ADD050095622C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BED397951E9ADD050095622C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BED3976D1E9ADD050095622C = {
+			isa = PBXGroup;
+			children = (
+				BED397781E9ADD050095622C /* BarkOrBolt-iOS */,
+				BED397901E9ADD050095622C /* BarkOrBolt-iOSTests */,
+				BED3979B1E9ADD050095622C /* BarkOrBolt-iOSUITests */,
+				BED397771E9ADD050095622C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BED397771E9ADD050095622C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BED397761E9ADD050095622C /* BarkOrBolt-iOS.app */,
+				BED3978D1E9ADD050095622C /* BarkOrBolt-iOSTests.xctest */,
+				BED397981E9ADD050095622C /* BarkOrBolt-iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BED397781E9ADD050095622C /* BarkOrBolt-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				BED397791E9ADD050095622C /* AppDelegate.swift */,
+				BED3977B1E9ADD050095622C /* ViewController.swift */,
+				BED3977D1E9ADD050095622C /* Main.storyboard */,
+				BED397831E9ADD050095622C /* Assets.xcassets */,
+				BED397851E9ADD050095622C /* LaunchScreen.storyboard */,
+				BED397881E9ADD050095622C /* Info.plist */,
+				BED397801E9ADD050095622C /* BarkOrBolt_iOS.xcdatamodeld */,
+			);
+			path = "BarkOrBolt-iOS";
+			sourceTree = "<group>";
+		};
+		BED397901E9ADD050095622C /* BarkOrBolt-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				BED397911E9ADD050095622C /* BarkOrBolt_iOSTests.swift */,
+				BED397931E9ADD050095622C /* Info.plist */,
+			);
+			path = "BarkOrBolt-iOSTests";
+			sourceTree = "<group>";
+		};
+		BED3979B1E9ADD050095622C /* BarkOrBolt-iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BED3979C1E9ADD050095622C /* BarkOrBolt_iOSUITests.swift */,
+				BED3979E1E9ADD050095622C /* Info.plist */,
+			);
+			path = "BarkOrBolt-iOSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BED397751E9ADD050095622C /* BarkOrBolt-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BED397A11E9ADD050095622C /* Build configuration list for PBXNativeTarget "BarkOrBolt-iOS" */;
+			buildPhases = (
+				BED397721E9ADD050095622C /* Sources */,
+				BED397731E9ADD050095622C /* Frameworks */,
+				BED397741E9ADD050095622C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BarkOrBolt-iOS";
+			productName = "BarkOrBolt-iOS";
+			productReference = BED397761E9ADD050095622C /* BarkOrBolt-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BED3978C1E9ADD050095622C /* BarkOrBolt-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BED397A41E9ADD050095622C /* Build configuration list for PBXNativeTarget "BarkOrBolt-iOSTests" */;
+			buildPhases = (
+				BED397891E9ADD050095622C /* Sources */,
+				BED3978A1E9ADD050095622C /* Frameworks */,
+				BED3978B1E9ADD050095622C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BED3978F1E9ADD050095622C /* PBXTargetDependency */,
+			);
+			name = "BarkOrBolt-iOSTests";
+			productName = "BarkOrBolt-iOSTests";
+			productReference = BED3978D1E9ADD050095622C /* BarkOrBolt-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BED397971E9ADD050095622C /* BarkOrBolt-iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BED397A71E9ADD050095622C /* Build configuration list for PBXNativeTarget "BarkOrBolt-iOSUITests" */;
+			buildPhases = (
+				BED397941E9ADD050095622C /* Sources */,
+				BED397951E9ADD050095622C /* Frameworks */,
+				BED397961E9ADD050095622C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BED3979A1E9ADD050095622C /* PBXTargetDependency */,
+			);
+			name = "BarkOrBolt-iOSUITests";
+			productName = "BarkOrBolt-iOSUITests";
+			productReference = BED397981E9ADD050095622C /* BarkOrBolt-iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BED3976E1E9ADD050095622C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Silicon Empire LLC";
+				TargetAttributes = {
+					BED397751E9ADD050095622C = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+					BED3978C1E9ADD050095622C = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BED397751E9ADD050095622C;
+					};
+					BED397971E9ADD050095622C = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BED397751E9ADD050095622C;
+					};
+				};
+			};
+			buildConfigurationList = BED397711E9ADD050095622C /* Build configuration list for PBXProject "BarkOrBolt-iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BED3976D1E9ADD050095622C;
+			productRefGroup = BED397771E9ADD050095622C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BED397751E9ADD050095622C /* BarkOrBolt-iOS */,
+				BED3978C1E9ADD050095622C /* BarkOrBolt-iOSTests */,
+				BED397971E9ADD050095622C /* BarkOrBolt-iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BED397741E9ADD050095622C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BED397871E9ADD050095622C /* LaunchScreen.storyboard in Resources */,
+				BED397841E9ADD050095622C /* Assets.xcassets in Resources */,
+				BED3977F1E9ADD050095622C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BED3978B1E9ADD050095622C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BED397961E9ADD050095622C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BED397721E9ADD050095622C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BED3977C1E9ADD050095622C /* ViewController.swift in Sources */,
+				BED3977A1E9ADD050095622C /* AppDelegate.swift in Sources */,
+				BED397821E9ADD050095622C /* BarkOrBolt_iOS.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BED397891E9ADD050095622C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BED397921E9ADD050095622C /* BarkOrBolt_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BED397941E9ADD050095622C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BED3979D1E9ADD050095622C /* BarkOrBolt_iOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BED3978F1E9ADD050095622C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BED397751E9ADD050095622C /* BarkOrBolt-iOS */;
+			targetProxy = BED3978E1E9ADD050095622C /* PBXContainerItemProxy */;
+		};
+		BED3979A1E9ADD050095622C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BED397751E9ADD050095622C /* BarkOrBolt-iOS */;
+			targetProxy = BED397991E9ADD050095622C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BED3977D1E9ADD050095622C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BED3977E1E9ADD050095622C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BED397851E9ADD050095622C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BED397861E9ADD050095622C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BED3979F1E9ADD050095622C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BED397A01E9ADD050095622C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BED397A21E9ADD050095622C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "BarkOrBolt-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BarkOrBolt-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BED397A31E9ADD050095622C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "BarkOrBolt-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BarkOrBolt-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		BED397A51E9ADD050095622C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "BarkOrBolt-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BarkOrBolt-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BarkOrBolt-iOS.app/BarkOrBolt-iOS";
+			};
+			name = Debug;
+		};
+		BED397A61E9ADD050095622C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "BarkOrBolt-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BarkOrBolt-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BarkOrBolt-iOS.app/BarkOrBolt-iOS";
+			};
+			name = Release;
+		};
+		BED397A81E9ADD050095622C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "BarkOrBolt-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BarkOrBolt-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "BarkOrBolt-iOS";
+			};
+			name = Debug;
+		};
+		BED397A91E9ADD050095622C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "BarkOrBolt-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BarkOrBolt-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "BarkOrBolt-iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BED397711E9ADD050095622C /* Build configuration list for PBXProject "BarkOrBolt-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BED3979F1E9ADD050095622C /* Debug */,
+				BED397A01E9ADD050095622C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BED397A11E9ADD050095622C /* Build configuration list for PBXNativeTarget "BarkOrBolt-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BED397A21E9ADD050095622C /* Debug */,
+				BED397A31E9ADD050095622C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BED397A41E9ADD050095622C /* Build configuration list for PBXNativeTarget "BarkOrBolt-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BED397A51E9ADD050095622C /* Debug */,
+				BED397A61E9ADD050095622C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BED397A71E9ADD050095622C /* Build configuration list for PBXNativeTarget "BarkOrBolt-iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BED397A81E9ADD050095622C /* Debug */,
+				BED397A91E9ADD050095622C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BED397801E9ADD050095622C /* BarkOrBolt_iOS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BED397811E9ADD050095622C /* BarkOrBolt_iOS.xcdatamodel */,
+			);
+			currentVersion = BED397811E9ADD050095622C /* BarkOrBolt_iOS.xcdatamodel */;
+			path = BarkOrBolt_iOS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BED3976E1E9ADD050095622C /* Project object */;
+}
