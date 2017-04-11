@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE3D181A1E9D0AD20030D8BD /* dogObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3D18191E9D0AD20030D8BD /* dogObject.swift */; };
+		BE3D181C1E9D2DDE0030D8BD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3D181B1E9D2DDE0030D8BD /* LoginViewController.swift */; };
+		BE3D181E1E9D2DF90030D8BD /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3D181D1E9D2DF90030D8BD /* CreateAccountViewController.swift */; };
+		BE3D18201E9D2E400030D8BD /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3D181F1E9D2E400030D8BD /* ProfileViewController.swift */; };
+		BE3D18221E9D2E500030D8BD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3D18211E9D2E500030D8BD /* HomeViewController.swift */; };
+		BE3D18241E9D2EA20030D8BD /* DogListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3D18231E9D2EA20030D8BD /* DogListViewController.swift */; };
+		BE3D18261E9D2ECD0030D8BD /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3D18251E9D2ECD0030D8BD /* AboutViewController.swift */; };
 		BED3977A1E9ADD050095622C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED397791E9ADD050095622C /* AppDelegate.swift */; };
 		BED3977C1E9ADD050095622C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED3977B1E9ADD050095622C /* ViewController.swift */; };
 		BED3977F1E9ADD050095622C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BED3977D1E9ADD050095622C /* Main.storyboard */; };
@@ -35,6 +42,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BE3D18191E9D0AD20030D8BD /* dogObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dogObject.swift; sourceTree = "<group>"; };
+		BE3D181B1E9D2DDE0030D8BD /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		BE3D181D1E9D2DF90030D8BD /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		BE3D181F1E9D2E400030D8BD /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		BE3D18211E9D2E500030D8BD /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		BE3D18231E9D2EA20030D8BD /* DogListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DogListViewController.swift; sourceTree = "<group>"; };
+		BE3D18251E9D2ECD0030D8BD /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		BED397761E9ADD050095622C /* BarkOrBolt-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BarkOrBolt-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BED397791E9ADD050095622C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BED3977B1E9ADD050095622C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -76,6 +90,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BE3D18161E9D0A6D0030D8BD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BE3D18191E9D0AD20030D8BD /* dogObject.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		BED3976D1E9ADD050095622C = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +121,7 @@
 		BED397781E9ADD050095622C /* BarkOrBolt-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				BE3D18161E9D0A6D0030D8BD /* Models */,
 				BED397791E9ADD050095622C /* AppDelegate.swift */,
 				BED3977B1E9ADD050095622C /* ViewController.swift */,
 				BED3977D1E9ADD050095622C /* Main.storyboard */,
@@ -106,6 +129,12 @@
 				BED397851E9ADD050095622C /* LaunchScreen.storyboard */,
 				BED397881E9ADD050095622C /* Info.plist */,
 				BED397801E9ADD050095622C /* BarkOrBolt_iOS.xcdatamodeld */,
+				BE3D181B1E9D2DDE0030D8BD /* LoginViewController.swift */,
+				BE3D181D1E9D2DF90030D8BD /* CreateAccountViewController.swift */,
+				BE3D18211E9D2E500030D8BD /* HomeViewController.swift */,
+				BE3D181F1E9D2E400030D8BD /* ProfileViewController.swift */,
+				BE3D18231E9D2EA20030D8BD /* DogListViewController.swift */,
+				BE3D18251E9D2ECD0030D8BD /* AboutViewController.swift */,
 			);
 			path = "BarkOrBolt-iOS";
 			sourceTree = "<group>";
@@ -262,9 +291,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE3D181E1E9D2DF90030D8BD /* CreateAccountViewController.swift in Sources */,
 				BED3977C1E9ADD050095622C /* ViewController.swift in Sources */,
 				BED3977A1E9ADD050095622C /* AppDelegate.swift in Sources */,
+				BE3D18221E9D2E500030D8BD /* HomeViewController.swift in Sources */,
+				BE3D18241E9D2EA20030D8BD /* DogListViewController.swift in Sources */,
 				BED397821E9ADD050095622C /* BarkOrBolt_iOS.xcdatamodeld in Sources */,
+				BE3D18201E9D2E400030D8BD /* ProfileViewController.swift in Sources */,
+				BE3D181C1E9D2DDE0030D8BD /* LoginViewController.swift in Sources */,
+				BE3D18261E9D2ECD0030D8BD /* AboutViewController.swift in Sources */,
+				BE3D181A1E9D0AD20030D8BD /* dogObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -511,6 +547,7 @@
 				BED397A31E9ADD050095622C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BED397A41E9ADD050095622C /* Build configuration list for PBXNativeTarget "BarkOrBolt-iOSTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +556,7 @@
 				BED397A61E9ADD050095622C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BED397A71E9ADD050095622C /* Build configuration list for PBXNativeTarget "BarkOrBolt-iOSUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +565,7 @@
 				BED397A91E9ADD050095622C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
